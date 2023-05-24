@@ -1,0 +1,122 @@
+.container {
+  width: 1000px;
+  height: 950px;
+  border: 10px solid black;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: -5px;
+  background-color: green;
+  border-bottom: 10px solid black;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.nav .box {
+  width: 150px;
+  background-color: white;
+  margin: 15px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  background-color: #6533FF;
+  border-bottom: 10px solid black;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
+
+.logo,
+.login,
+.form {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  line-height: 40px;
+}
+
+.login {
+  top: calc(50% - 60px);
+}
+
+.form {
+  top: calc(50% + 60px);
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 280px;
+  background-color: white;
+  z-index: 1;
+  left: 20px;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  background-color: gray;
+  border-bottom: 10px solid black;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.aside {
+  width: 200px;
+  height: 485px;
+  background-color: white;
+}
+
+.article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 480px;
+  background-color: white;
+}
+
+.aside-derecho {
+  width: 200px;
+  height: 485px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  margin-top: -10px;
+  background-color: yellow;
+  border-bottom: 10px solid black;
+  box-sizing: border-box;
+}
